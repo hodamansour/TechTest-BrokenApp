@@ -5,6 +5,11 @@ properly... This is why I am hiring **YOU** to help put this product on the mark
 
 Here is everything you need to know to complete the task:
 
+### Setup
+
+Fork this repo on your own github profile and clone your fork on your local machine.
+Build the database on your local machine using the build script. :construction:
+
 ### Routes
 
 All the routes are discribed in `router.js`. All the routes you need are there, you just need to understand what they do and write the appropriate functions.
