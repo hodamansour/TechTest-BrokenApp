@@ -21,3 +21,6 @@ Comment the code that you write so that other developpers can work on the projec
 
 The database schema is done, you only need to build the database on your computer. You can do this using the `db_build.js` script. Before creating the db schema I created a **models** folder were I was stored some __dummy data__ for starting my project. Some of the data is still being rendered by the app but this is not how it should be... All the data should be taken from the database.
 
+### Styling
+
+I'm not very much of a CSS person but I would love it if the app could look better then what it looks like right now... Let your creativity fly! :bird:
