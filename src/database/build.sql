@@ -14,12 +14,12 @@ CREATE TABLE animals (
 );
 
 INSERT INTO animals (animal_name, img_link, habitat, origin, facts, myths) VALUES
-  ('elephant', '/assets/animals/elephant.jpeg', 'Lives in the toundra in Africa.', 'Africa', 'big animal', 'the long lost elephant'),
-  ('tiger', '/assets/animals/tiger.jpeg', 'Lives in the jungle', 'Somewhere in the jungle', 'Likes to roar', 'The tiger and the dragon'),
-  ('koala', '/assets/animals/koala.jpeg', 'The forest', 'Asia', 'So cute!', 'Something cute'),
-  ('kangoroo', '/assets/animals/kangoroo.jpeg', 'The forest', 'Australia', 'Has a pocket', 'The bouncing Kangoroo'),
-  ('lion', '/assets/animals/lion.jpeg', 'The JUNGLE', 'Africa', 'Imposing', 'The lion King'),
-  ('giraffe', '/assets/animals/giraffe.jpeg', 'The plains of Africa', 'Unknown', 'Has long neck', 'Giraffe and friends'),
-  ('antilope', '/assets/animals/antilope.jpeg', 'The plains', 'no idea', 'Runs very fast', 'The champion antilope');
+  ('elephant', '/assets/animals/elephant.jpeg', 'Lives in the Savana', 'Africa and Asia', 'Facing extinction because of their ivory tusks.', 'An elephant never forgets.'),
+  ('tiger', '/assets/animals/tiger.jpeg', 'Variety of habitats, from tropical forest to grass lands.', 'Africa', 'Biggest specie of the cat family.', 'The tiger who lost its stripes'),
+  ('koala', '/assets/animals/koala.jpeg', 'Eucalyptus forests and woodlands', 'Australia', 'They sleep up to 18h a day!', 'The koala who had a stumpy tail'),
+  ('kangoroo', '/assets/animals/kangoroo.jpeg', 'Variety of habitats, from savana to grassy plains', 'Australia', 'The mom has as a pocket to carry the babies', 'Roger The Kangoroo'),
+  ('lion', '/assets/animals/lion.jpeg', 'Open lands', 'Africa', 'They are the most social of all big cats.', 'The lion King'),
+  ('giraffe', '/assets/animals/giraffe.jpeg', 'Savana and open ranges', 'Sahara and regions of Africa', 'Tallest mamel on Earth.', 'Giraffes Can\'t Dance'),
+  ('antilope', '/assets/animals/antilope.jpeg', 'African savanas', 'Africa', 'Runs very fast.', 'The Lion and the Antilope');
 
 COMMIT;
