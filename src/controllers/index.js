@@ -15,22 +15,26 @@ router.get('/congrats', (req, res) => { // DONT CHANGE THIS LINE!
 });
 
 router.get('/user/:name', (req, res) => { // DONT CHANGE THIS LINE!
-  // We need to send the name of the user to the view. Make sure the name is capitalized!
+  // We need to send the name of the user to the view.
+  //Make sure the name is capitalized when it shows on the page!
   res.render('welcome', { name });
 });
 
 router.post('/user/:name', (req, res) => { // DONT CHANGE THIS LINE!
-  // const name = req.body.data.toLowerCase();
+  // This endpoint goes to any name the user entered on the home page.
+  // ex. : /user/mynah, /user/shireen, /user/lital, etc...
   res.send({redirect: '/user/'.concat(name)}); // DONT CHANGE THIS LINE!
 });
 
 router.get('/animals', (req, res) => {  // DONT CHANGE THIS LINE!
 
-  //Now we are rendering data from a file... We need to take this data from the database!
+  //Now we are rendering data from a file...
+  // The data in the file is just dummy data. We need to take the data from the database!
   res.render('animals', { animals });
 });
 
 router.get('/animals/create', (req, res) => { // DONT CHANGE THIS LINE!
+  // Render create_animal and send appropriate data
   res.render('create_animal');
 })
 

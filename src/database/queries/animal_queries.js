@@ -8,8 +8,9 @@ const displayAnimals = (cb) => {
 }
 
 const fetchSingleAnimal = (animal_name, cb) => {
+  // humm...
   dbConnect.query(`SELECT * FROM animals WHERE animal_name = {$1}`, [animal_name], (e, res) => {
-    // humm...
+
     return cb(e, res);
   })
 }

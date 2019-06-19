@@ -1,3 +1,5 @@
+// These functions might be useful... 
+
 const clientError = (req, res) => {
   const page = req.url;
   res.render('404', { message: `Sorry... I couldn't find ${page} on this server...` })
