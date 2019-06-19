@@ -29,3 +29,8 @@ The database schema is done, you only need to build the database on your compute
 ### Styling
 
 I'm not very much of a CSS person but I would love it if the app could look better then what it looks like right now... Let your creativity fly! :bird:
+
+### Things NOT To Change :no_entry:
+
+- The name of the files are correct and shouldn't be changed. The way the files are organized in the tree is also correct and they shouldn't be moved around. Keep each file in the place where it is and don't move them from one folder to another.
+
