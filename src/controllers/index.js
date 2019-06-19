@@ -8,15 +8,20 @@ const { displayAnimals, fetchSingleAnimal, insertAnimal } = require('../database
 
 router.get('/', (req, res) => { // DONT CHANGE THIS LINE!
   // Render home view
+  res.render('home');
 });
 
 router.get('/congrats', (req, res) => { // DONT CHANGE THIS LINE!
   // Render congrats view
+  res.render('congrats');
 });
 
 router.get('/user/:name', (req, res) => { // DONT CHANGE THIS LINE!
   // We need to send the name of the user to the view.
+  const inputName = req.params.name;
+  const name = capitalize(inputName[0]) + inputName.slice();
   //Make sure the name is capitalized when it shows on the page!
+  console.log('This is the name: ', name);
   res.render('welcome', { name });
 });
 
